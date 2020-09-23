@@ -24,12 +24,12 @@
         <div class="card">  
           <h3>Preencha o formulário</h3>
           <div class="form-box">
-            <form action="/" method="POST">
-              <input type="text" placeholder="Nome" >
-              <input type="text" placeholder="E-mail" >
-              <input type="password" placeholder="Senha" >
-              <input type="password" placeholder="Confirme a senha" >
-              <button type="submit">Finalizar</button>
+            <form action="/register" method="POST">
+              <input type="text" placeholder="Nome" name="name" id="name">
+              <input type="text" placeholder="E-mail" name="email" id="email">
+              <input type="password" placeholder="Senha" name="password" id="password">
+              <input type="password" placeholder="Confirme a senha" name="password2" id="password2">
+              <button type="submit" value="register">Finalizar</button>
             </form>
           </div>
         </div>
